@@ -27,7 +27,7 @@ const Header = ({ headerClass }) => {
 								<Link href='#soter-location'>Store location</Link>
 							</div>
 							<div className='topbar-left d-flex justify-content-center px-2' style={{width: '50%'}}>
-								<Link href='#shop'>Show All Products</Link>
+								<Link href='#shop' className='show-all-link'>Show All Products</Link>
 							</div>
 							<div className='topbar-left d-flex justify-content-between' style={{width: '25%'}}>
 								<Link href='#support'>English</Link>
