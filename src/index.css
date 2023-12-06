@@ -35,11 +35,30 @@ code {
 .page-topbar a.show-all-link:hover{
   background-color: #2d4792;
 }
+.page-topbar .dropdown button{
+  padding: 0;
+  outline: 0 !important;
+  border: 0 !important;
+
+  font-size: 17px;
+  font-weight: 600;
+}
+.navbar-header .iconslist a{
+  color: #000;
+  font-size: 17px;
+  text-decoration: none;
+  font-weight: 600;
+  margin-left: 10px;
+  transition: all 0.2s ease-in-out;
+}
+.navbar-header .iconslist a:hover{
+  color: #2d4792;
+}
 
 .site-top-banner{
   background-color: #d6e3eb;
   padding: 35px 0 35px;
-  border-bottom: 3px solid #000;
+  border-bottom: 7px solid #000;
 }
 .banner-title{
   font-size: 1.7em;
@@ -70,4 +89,49 @@ code {
 }
 .banner-btn:hover{
   background-color: #2d4792;
+}
+
+.item-menu-wrap{
+  padding: 30px 0;
+  background-color: #2d4792;
+}
+
+.item-menu-inner{
+  display: flex;
+  justify-content: space-between;
+}
+.menu-item-inner{
+  display: flex;
+  align-items: center;
+}
+.menu-item{
+  background-color: #fff;
+  padding: 0 15px 0 0;
+  font-size: 14px;
+  color: #000;
+  font-weight: 700;
+}
+
+.three-blocks-section{
+  padding-top: 4em;
+}
+
+.home-3block-item{
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 280px;
+  margin: auto;
+  color: #fff;
+  text-align: center;
+  font-size: 1.7em;
+  font-weight: 700;
+}
+.home-3block-item.h3i-item1{
+  background-color: #1b378a;
+}
+.home-3block-item.h3i-item2{
+  background-color: #f1442b;
+}
+.home-3block-item.h3i-item3{
+  background-color: #327ab9;
 }

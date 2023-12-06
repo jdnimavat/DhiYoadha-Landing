@@ -1,6 +1,7 @@
-import React, { useState } from "react";
-import { Col, Container, Row } from "reactstrap";
+import React from "react";
 import TopBanner from "./sections/TopBanner";
+import ItemMenu from "./sections/ItemMenu";
+import ThreeBlocks from "./sections/ThreeBlocks";
 
 const Home = () => {
 
@@ -10,8 +11,9 @@ const Home = () => {
 		<React.Fragment>
 			<div className="page-content">
 				<TopBanner />
-				<Container fluid>
-				</Container>
+				<ItemMenu />
+				<ThreeBlocks />
+				<div className="p-5"></div>
 			</div>
 		</React.Fragment>
 	);
