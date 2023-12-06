@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Col, Container, Row } from "reactstrap";
-// import Section from "./Section";
+import TopBanner from "./sections/TopBanner";
 
 const Home = () => {
 
@@ -9,8 +9,8 @@ const Home = () => {
     return (
 		<React.Fragment>
 			<div className="page-content">
+				<TopBanner />
 				<Container fluid>
-					
 				</Container>
 			</div>
 		</React.Fragment>

@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.site-top-banner{
+  background-color: #d6e3eb;
+  padding: 35px 0 35px;
+  border-bottom: 3px solid #000;
+}
